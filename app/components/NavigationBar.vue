@@ -14,7 +14,7 @@ const navigation = useNavigation()
         :key="item.name"
         :to="localePath(item.to)"
         class="flex h-11 w-11 items-center justify-center rounded-full transition"
-        :class="route.path === item.to
+        :class="route.path === localePath(item.to)
           ? 'bg-white/10 text-white'
           : 'text-white/40 hover:bg-white/5 hover:text-white'"
       >
