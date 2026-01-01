@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/icon', '@nuxtjs/i18n'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/icon', '@nuxtjs/i18n', '@nuxt/fonts'],
 
   i18n: {
     strategy: 'prefix_except_default',
@@ -12,5 +12,15 @@ export default defineNuxtConfig({
     ],
     defaultLocale: 'en',
     detectBrowserLanguage: false,
-  }
+  },
+
+  fonts: {
+    families: [
+      {
+        name: 'Manrope',
+        provider: 'google',
+        weights: [400, 500, 600, 700],
+      },
+  ],
+},
 })
