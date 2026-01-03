@@ -8,8 +8,8 @@ useHead({
 </script>
 
 <template>
-  <main class="mx-auto max-w-4xl px-6 py-24">
-    <section class="flex flex-col gap-6 text-center">
+  <main>
+    <section>
       <h1>
         Philippe St-Laurent-Recoura
       </h1>

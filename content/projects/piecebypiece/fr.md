@@ -13,4 +13,7 @@ context: "Wonderjam automne 2024 (GameJam interne à l'UQAC)"
 role: "Programmeur UI/UX"
 description: "1ère place dans la GameJam. Dans ce jeu de casse-tête, le joueur doit déplacer les pièces d'un puzzle pour se frayer un chemin jusqu'à la sortie."
 ---
-Piece by piece fr
+# Piece by Piece (Gamejam)
+## Jeu de plateforme-puzzle
+
+Dans ce jeu
