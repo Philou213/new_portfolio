@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import LanguageSwitcher from '../Navigation/LanguageSwitcher.vue';
+
 </script>
 
 <template>
