@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import SeePage from '~/components/Projects/SeePage.vue';
+
 const { locale } = useI18n()
 
 const { data: project } = await useAsyncData(
@@ -18,7 +20,11 @@ useSeoMeta({
   <template v-if="project">
     <main>
       <section>
-        <ContentRenderer :value="project" />
+        <ContentRenderer :value="project" class="prose prose-neutral [&_h2]:mb-10"/>
+
+        <SeePage
+        :project_link="project.meta.link"
+        />
       </section>
     </main>
   </template>
