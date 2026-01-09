@@ -3,7 +3,7 @@ import ProjectGrid from '~/components/Projects/ProjectGrid.vue';
 
   const { t } = useI18n()
 useHead({
-  title: 'Philippe St-Laurent-Recoura - Projects',
+  title: t('Navigation.Projects'),
   meta: [
     { name: 'description', content: 'Game developer portfolio showcasing projects, experiments, and technical skills.' },
   ],
@@ -14,12 +14,12 @@ useHead({
   <main>
     <section>
       <h1>
-        {{ t('projects') }}
+        {{ t('Projects.Title') }}
       </h1>
 
-      <p>
-        A list of my game development projects, experiments, and technical showcases.
-      </p>
+      <h2>
+        {{ t('Projects.Subtitle') }}
+      </h2>
       <ProjectGrid></ProjectGrid>
     </section>
   </main>

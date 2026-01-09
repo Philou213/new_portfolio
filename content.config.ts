@@ -5,6 +5,10 @@ export default defineContentConfig({
     projects: defineCollection({
       type: 'page',
       source: 'projects/**'
+    }),
+    about: defineCollection({
+      type: 'page',
+      source: 'about/**'
     })
   }
 })
