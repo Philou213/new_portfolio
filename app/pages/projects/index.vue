@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import ProjectGrid from '~/components/Projects/ProjectGrid.vue';
+
   const { t } = useI18n()
 useHead({
   title: 'Philippe St-Laurent-Recoura - Projects',
@@ -18,6 +20,7 @@ useHead({
       <p>
         A list of my game development projects, experiments, and technical showcases.
       </p>
+      <ProjectGrid></ProjectGrid>
     </section>
   </main>
 </template>
