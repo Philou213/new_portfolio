@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Projects from '~/components/Home/Projects.vue';
+import Social from '~/components/Home/Social.vue';
 
   const { t } = useI18n()
 useHead({
@@ -11,17 +12,22 @@ useHead({
 </script>
 
 <template>
-  <main>
-    <section>
-      <h1>
+  <main class="flex flex-col gap-12">
+    <section class="flex flex-col items-center gap-6">
+      <h1 class="m-0">
         {{ t('Index.Title') }}
       </h1>
+      <Social />
+    </section>
+
+    <section>
       <p>
         {{ t('Index.Main') }}
       </p>
     </section>
-    <section class="pt-20">
-      <Projects></Projects>
+
+    <section class="mt-10 items-center">
+      <Projects />
     </section>
   </main>
 </template>

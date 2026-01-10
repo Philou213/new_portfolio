@@ -8,7 +8,8 @@
     "Title" : "Philippe St-Laurent-Recoura",
     "Main" : "Welcome to my portfolio! My name is Philippe St-Laurent-Recoura, and I am a computer developer. Passionate about new technologies and various areas of programming, I invite you to explore this site. Here, you can learn more about me, my background, my past projects, and my many skills. Enjoy your visit!",
     "Projects" : "Les projets",
-    "See_More" : "Voir tous les projets"
+    "See_More" : "Voir tous les projets",
+    "CV": "CV"
   },
   "Projects": {
     "Title" : "Projects",
