@@ -2,6 +2,7 @@
 title: Piece by Piece
 locale: en
 release: 2024
+featured : true
 image: /images/projects/pieceByPiece.png
 link: https://psonbre.itch.io/piece-by-piece
 type: "Godot"

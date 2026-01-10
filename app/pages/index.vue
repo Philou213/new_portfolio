@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import Projects from '~/components/Home/Projects.vue';
+
   const { t } = useI18n()
 useHead({
   title: t('Navigation.Index'),
@@ -17,6 +19,9 @@ useHead({
       <p>
         {{ t('Index.Main') }}
       </p>
+    </section>
+    <section class="pt-20">
+      <Projects></Projects>
     </section>
   </main>
 </template>

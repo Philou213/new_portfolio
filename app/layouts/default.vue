@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="relative min-h-screen w-full bg-black overflow-hidden text-emerald-400 font-sans">
+  <div class="relative min-h-screen w-full bg-black overflow-hidden text-main font-sans">
     <!-- Background pattern -->
       <div
       class="absolute inset-0 z-0"

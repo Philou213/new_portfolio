@@ -6,7 +6,9 @@
   },
   "Index": {
     "Title" : "Philippe St-Laurent-Recoura",
-    "Main" : "Bienvenue sur mon portfolio ! Je m’appelle Philippe St-Laurent-Recoura et je suis un développeur en informatique. Passionné par les nouvelles technologies et les nombreux domaines de programmation, je vous invite à explorer ce site. Vous y apprendrez plus sur moi, mon parcours, mes anciens projets et mes nombreux talents. Bonne visite !"
+    "Main" : "Bienvenue sur mon portfolio ! Je m’appelle Philippe St-Laurent-Recoura et je suis un développeur en informatique. Passionné par les nouvelles technologies et les nombreux domaines de programmation, je vous invite à explorer ce site. Vous y apprendrez plus sur moi, mon parcours, mes anciens projets et mes nombreux talents. Bonne visite !",
+    "Projects" : "Les projets",
+    "See_More" : "Voir tous les projets"
   },
   "Projects": {
     "Title" : "Projets",
