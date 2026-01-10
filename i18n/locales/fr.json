@@ -13,7 +13,9 @@
   },
   "Projects": {
     "Title" : "Projets",
-    "Subtitle" : "Une liste de projets que j'ai participé"
+    "Subtitle" : "Une liste de projets que j'ai participé",
+    "Code" : "Voir le code",
+    "Link" : "Voir le projet"
   },
   "About":{
     "Title" : "À propos de moi"

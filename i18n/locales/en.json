@@ -13,7 +13,9 @@
   },
   "Projects": {
     "Title" : "Projects",
-    "Subtitle" : "A list of projects I've worked on"
+    "Subtitle" : "A list of projects I've worked on",
+    "Code" : "See code",
+    "Link" : "See project"
   },
   "About":{
     "Title" : "About me"
