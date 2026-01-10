@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import BackButton from '~/components/Projects/BackButton.vue';
 import SeeCode from '~/components/Projects/SeeCode.vue';
 import SeePage from '~/components/Projects/SeePage.vue';
 
@@ -20,6 +21,9 @@ useSeoMeta({
 <template>
   <template v-if="project">
   <main class="flex flex-col gap-12">
+    <div>
+      <BackButton></BackButton>
+    </div>
     
     <!-- Hero Image -->
     <div class="flex w-full justify-center">
@@ -71,6 +75,7 @@ useSeoMeta({
 </template>
 
   <template v-else>
+    <BackButton></BackButton>
     <main>
       <section>
         <h1>

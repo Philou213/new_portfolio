@@ -7,7 +7,8 @@ const { data: projects } = await useAsyncData(
   () =>
     queryCollection('projects')
       .where('path', 'LIKE', `/projects/%/${locale.value}`)
-      .all()
+      .all(),
+      { watch: [locale] }
 )
 
 
