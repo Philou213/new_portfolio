@@ -1,17 +1,18 @@
 ---
-title: Piece by Piece (Game Jam)
+title: Piece by Piece
 locale: fr
-release: 2024
+release: En développement
 image: /images/projects/pieceByPiece.png
-link: https://psonbre.itch.io/piece-by-piece
-code: https://psonbre.itch.io/piece-by-piece
+link: https://store.steampowered.com/app/3249380/Piece_by_Piece/
 type: "Godot"
 tags:
     - Godot
-    - Gamejam
+    - Commercial
+    - Favorite
 layout: project
-context: "Wonderjam automne 2024 (GameJam interne à l'UQAC)"
-role: "Programmeur UI/UX"
-description: "Jeu de plateforme-puzzle"
+featured: true
+context: "Projet commercial"
+role: "Programmeur / Level Designer"
+description: "Jeu de casse-tête"
 ---
-1ère place dans la GameJam. Dans ce jeu de casse-tête, le joueur doit déplacer les pièces d'un puzzle pour se frayer un chemin jusqu'à la sortie.
+Dans ce jeu de casse-tête, le joueur doit déplacer les pièces d'un puzzle pour se frayer un chemin jusqu'à la sortie.

@@ -31,8 +31,8 @@ defineProps({
 
     <div class="absolute bottom-0 flex w-full justify-center">
       <div class="rounded-t-lg border-x border-t border-white/10 px-4 py-[5px] backdrop-blur-md">
-        <div class="flex items-center gap-2">
-          <UIcon
+        <div class="flex items-center gap-1">
+          <Icon
             v-if="project.meta.featured"
             name="i-heroicons-star-solid"
             class="size-5 text-white"
