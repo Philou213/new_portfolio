@@ -45,8 +45,8 @@ useSeoMeta({
       <div class="flex-1" v-if="project.meta.link">
         <SeePage :project_link="project.meta.link" />
       </div>
-      <div class="flex-1" v-if="project.meta.code">
-        <SeeCode :code_link="project.meta.code" />
+      <div class="flex-1" v-if="project.meta.repo">
+        <SeeCode :code_link="project.meta.repo" />
       </div>
     </section>
 

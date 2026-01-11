@@ -1,7 +1,7 @@
 ---
 title: Murder
 locale: fr
-release: En développement
+release: 2025
 image: /images/projects/murder.jpg
 link: https://philou213.github.io/TP_Murder
 repo: https://github.com/Philou213/TP_Murder

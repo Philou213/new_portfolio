@@ -8,7 +8,7 @@ defineProps({
     required: true,
   },
   project_page: {
-    type: Object as PropType<any>,
+    type: String,
     required: true,
   }
 })

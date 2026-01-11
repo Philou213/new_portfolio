@@ -3,10 +3,21 @@
 const { locale } = useI18n()
 const { data: projects } = await useAsyncData(
   'projects',
-  () =>
-    queryCollection('projects')
+  async () => {
+    const projects = await queryCollection('projects')
       .where('path', 'LIKE', `/projects/%/${locale.value}`)
-      .all(),
+      .all()
+
+    const getReleaseOrder = (release: unknown) => {
+      if (release === 'En développement' || release === 'In development') return Number.POSITIVE_INFINITY
+      if (release === 'Abandonné') return Number.NEGATIVE_INFINITY
+      return Number(release) || 0
+    }
+
+    return projects.sort(
+      (a, b) => getReleaseOrder(b.meta.release) - getReleaseOrder(a.meta.release)
+    )
+  },
   { watch: [locale] }
 )
 

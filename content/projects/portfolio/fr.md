@@ -1,7 +1,7 @@
 ---
 title: Portfolio
 locale: fr
-release: 2025
+release: 2026
 image: /images/projects/portfolio.png
 repo: https://github.com/Philou213/portfolio
 type: "Web"

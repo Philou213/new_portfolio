@@ -2,14 +2,27 @@
 import ProjectCard from './ProjectCard.vue'
 
 const { locale } = useI18n()
+
 const { data: projects } = await useAsyncData(
   'projects',
-  () =>
-    queryCollection('projects')
+  async () => {
+    const projects = await queryCollection('projects')
       .where('path', 'LIKE', `/projects/%/${locale.value}`)
-      .all(),
-      { watch: [locale] }
+      .all()
+
+    const getReleaseOrder = (release: unknown) => {
+      if (release === 'En développement' || release === 'In development') return Number.POSITIVE_INFINITY
+      if (release === 'Abandonné') return Number.NEGATIVE_INFINITY
+      return Number(release) || 0
+    }
+
+    return projects.sort(
+      (a, b) => getReleaseOrder(b.meta.release) - getReleaseOrder(a.meta.release)
+    )
+  },
+  { watch: [locale] }
 )
+
 
 
 function projectPage(path: string) {
@@ -24,7 +37,7 @@ function projectPage(path: string) {
 </script>
 
 <template>
-  <div v-if="projects" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+  <div v-if="projects" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 w-full">
     <ProjectCard
       v-for="project in projects"
       :key="project.path"
