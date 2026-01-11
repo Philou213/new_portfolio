@@ -6,6 +6,9 @@
   h1 {
     @apply text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-main;
   }
+  h2 {
+    @apply text-lg sm:text-xl lg:text-2xl font-bold text-main;
+  }
   p {
     @apply text-lg text-text-primary;
   }
@@ -14,5 +17,9 @@
   }
   section {
     @apply flex flex-col gap-10 text-center
+  }
+
+  .preserve {
+    white-space: pre-line;
   }
 }

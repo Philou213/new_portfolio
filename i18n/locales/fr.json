@@ -6,7 +6,7 @@
   },
   "Index": {
     "Title" : "Philippe St-Laurent-Recoura",
-    "Main" : "Bienvenue sur mon portfolio ! Je m’appelle Philippe St-Laurent-Recoura et je suis un développeur en informatique. Passionné par les nouvelles technologies et les nombreux domaines de programmation, je vous invite à explorer ce site. Vous y apprendrez plus sur moi, mon parcours, mes anciens projets et mes nombreux talents. Bonne visite !",
+    "Main" : "Développeur gameplay et UI, designer de jeux vidéo.\n Lauréat de plusieurs game jams et compétitions étudiantes",
     "Projects" : "Les projets",
     "See_More" : "Voir tous les projets",
     "CV": "CV"
@@ -15,7 +15,9 @@
     "Title" : "Projets",
     "Subtitle" : "Une liste de projets que j'ai participé",
     "Code" : "Voir le code",
-    "Link" : "Voir le projet"
+    "Link" : "Voir le projet",
+    "Role" : "Rôle",
+    "Context" : "Contexte"
   },
   "About":{
     "Title" : "À propos de moi"

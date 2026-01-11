@@ -54,11 +54,11 @@ useSeoMeta({
     <!-- Role & Context Side by Side -->
     <section class="mx-auto w-full max-w-4xl grid grid-cols-1 sm:grid-cols-2 gap-6">
       <div>
-        <h3 class="text-lg font-semibold text-white">Role</h3>
+        <h3 class="text-lg font-semibold text-white">{{ t('Projects.Role') }}</h3>
         <p class="text-gray-300">{{ project.meta.role }}</p>
       </div>
       <div>
-        <h3 class="text-lg font-semibold text-white">Context</h3>
+        <h3 class="text-lg font-semibold text-white">{{ t('Projects.Context') }}</h3>
         <p class="text-gray-300">{{ project.meta.context }}</p>
       </div>
     </section>
@@ -67,7 +67,7 @@ useSeoMeta({
     <section class="mx-auto w-full max-w-4xl">
       <ContentRenderer
         :value="project"
-        class="prose prose-neutral [&_h2]:mb-10"
+        class="prose prose-neutral [&_h2]:mb-5 [&_h2]:mt-10 [&_h3]:mb-5 [&_h3]:mt-10 text-left"
       />
     </section>
 

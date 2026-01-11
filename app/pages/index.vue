@@ -21,7 +21,7 @@ useHead({
     </section>
 
     <section>
-      <p>
+      <p class="preserve">
         {{ t('Index.Main') }}
       </p>
     </section>
