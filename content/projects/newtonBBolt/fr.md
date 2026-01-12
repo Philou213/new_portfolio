@@ -12,7 +12,7 @@ layout: project
 featured: true
 context: "Projet scolaire multidisciplinaire"
 role: "Programmeur Gameplay/UI"
-description: "Jeu Puzzle-Plateforme"
+description: "Un jeu Puzzle-Plateforme avec des pouvoirs de magnétisme"
 ---
 <div class="flex justify-center">
   <iframe
@@ -26,6 +26,7 @@ description: "Jeu Puzzle-Plateforme"
     allowfullscreen
   ></iframe>
 </div>
+
 ## Présentation du jeu
 Newton & Bolt est un jeu de plateforme-puzzle dans lequel un robot nommé Newton doit fuir une ville remplie de robots hostiles pour ramener son ami chien, Bolt, sain et sauf à la maison.
 Pour cela, le joueur doit esquiver les patrouilles ennemis et parcourir les environnements en s'aimantant sur les murs.
@@ -34,7 +35,7 @@ Pour cela, le joueur doit esquiver les patrouilles ennemis et parcourir les envi
 Ce jeu a été développé lors du cours de Atelier de production de jeux vidéo I à l'UQAC en automne 2025. Ce jeu est ma première production d'un jeu en équipe multidisciplinaire et aussi mon premier projet complet sur le moteur Unreal Engine.
 
 ## Mon travail
-J'ai eu le rôle de développeur Gameplay sur le projet.
+J'ai eu le rôle de développeur Gameplay/UI sur le projet.
 
 ### Cône de vision
 <video src="/videos/newtonNBolt/ConeDeVision.mp4" autoplay muted loop playsinline></video> <br>

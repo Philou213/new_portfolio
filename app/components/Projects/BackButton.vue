@@ -1,8 +1,17 @@
 <script setup lang="ts">
 const router = useRouter()
+const route = useRoute()
 const { t } = useI18n()
 
 function goBack() {
+  if (route.path.startsWith('/projects/')&& route.path.split('/').length >= 3) {
+    router.push('/projects')
+    return
+  }
+  else if (route.path.startsWith('/fr/projects/')&& route.path.split('/').length >= 3) {
+    router.push('/fr/projects')
+    return
+  }
   router.back()
 }
 </script>

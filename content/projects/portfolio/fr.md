@@ -12,6 +12,10 @@ tags:
 layout: project
 context: "Portfolio"
 role: "Développeur"
-description: "Portfolio"
+description: "Le site que vous consultez en ce moment est un de mes projets !"
 ---
-Le site que vous consultez en ce moment est un de mes projets !
+## Présentation du site
+Mon portfolio est un site web permettant de présenter moi et mes projets. Le site a été créé avec le Framework Nuxt basé sur Vue.js. Il est déployé avec Vercel.
+
+## Mon travail
+J'ai travaillé entièrement seul sur le projet.
