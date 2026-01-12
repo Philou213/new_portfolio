@@ -18,3 +18,4 @@ description: "Jeu Arcade de survie contre soi-même"
 Dans ce jeu style arcade, le joueur doit capturer une boîte et s'enfuir avec.  
 Mais à chaque victoire, un clone rejoue exactement vos actions passées et tente aussi de gagner.  
 Chaque succès rend la partie plus difficile — car vous jouez contre vous-même.
+dadwad
