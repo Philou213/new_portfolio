@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const router = useRouter()
+const { t } = useI18n()
 
 function goBack() {
   router.back()
@@ -15,6 +16,6 @@ function goBack() {
       name="i-heroicons-arrow-left"
       class="text-lg"
     />
-    <span>Retour</span>
+    <span>{{ t('Projects.Back') }}</span>
   </button>
 </template>

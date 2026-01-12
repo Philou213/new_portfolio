@@ -79,7 +79,7 @@ useSeoMeta({
     <main>
       <section>
         <h1>
-          Project does not exist
+          {{ t('Projects.Error') }}
         </h1>
       </section>
     </main>

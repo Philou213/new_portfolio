@@ -17,7 +17,9 @@
     "Code" : "Voir le code",
     "Link" : "Voir le projet",
     "Role" : "Rôle",
-    "Context" : "Contexte"
+    "Context" : "Contexte",
+    "Error" : "Le projet n'existe pas",
+    "Back" : "Retour"
   },
   "About":{
     "Title" : "À propos de moi"
