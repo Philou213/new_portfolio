@@ -23,5 +23,7 @@
   },
   "About":{
     "Title" : "About me"
-  }
+  },
+  "Software" : "Softwares",
+  "Languages" : "Languages"
 }
