@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import JobCard from '~/components/Career/JobCard.vue';
+import JobTimeline from '~/components/Career/JobTimeline.vue';
 import Languages from '~/components/Skill/Languages.vue';
 import Software from '~/components/Skill/Software.vue';
 
@@ -31,10 +33,13 @@ useHead({
       </h1>
       <ContentRenderer  v-if="about" :value="about" class="prose prose-neutral [&_p]:mb-6 max-w-none [&_h2]:mt-8 [&_h3]:mt-4 text-left"/>
     </section>
-    <section>
+    <section class="pt-5 pb-5">
+        <JobTimeline></JobTimeline>
+    </section>
+    <section class="pt-5 pb-5">
         <Languages></Languages>
     </section>
-    <section class="pt-5">
+    <section class="pt-5 pb-5">
         <Software></Software>
     </section>
   </main>

@@ -9,6 +9,10 @@ export default defineContentConfig({
     about: defineCollection({
       type: 'page',
       source: 'about/**'
+    }),
+    experiences : defineCollection({
+      type: 'page',
+      source: 'career/**'
     })
   }
 })
