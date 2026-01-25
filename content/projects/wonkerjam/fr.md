@@ -10,7 +10,6 @@ tags:
     - Gamejam
     - Favorite
 layout: project
-featured: true
 context: "Wonderjam automne 2025 (GameJam interne à l'UQAC)"
 role: "Programmeur Gameplay / Game Designer / Artiste / Son"
 description: "Jeu remplis de mini-jeux"
