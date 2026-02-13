@@ -5,6 +5,14 @@ type Social = {
   icon: string
 }
 
+const { locale } = useI18n()
+
+const cvPath = computed(() => {
+  return locale.value === 'fr'
+    ? '/assets/CVFrançais.pdf'
+    : '/assets/CVEnglish.pdf'
+})
+
 const socials: Social[] = [
   {
     name: 'GitHub',
@@ -44,7 +52,7 @@ const socials: Social[] = [
 
     <!-- CV button -->
     <a
-      href="/assets/CV.pdf"
+      :href="cvPath" target="_blank"
       download
       class="flex items-center gap-2 rounded-lg border border-white/10 bg-surface px-4 py-2 text-sm text-muted transition-all duration-200 hover:bg-surface-hover hover:text-main"
     >
