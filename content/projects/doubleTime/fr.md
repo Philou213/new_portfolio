@@ -13,4 +13,12 @@ context: "Projet en Techniques de l'informatique"
 role: "Programmeur"
 description: "Jeu FPS et de course"
 ---
-Dans ce jeu de tir à la première personne (FPS), le joueur doit compléter les niveaux le plus rapidement possible. Pour y parvenir, il devra éliminer les ennemis efficacement tout en maîtrisant la vitesse et les mécaniques de parkour.
+## Présentation du jeu
+**Double Time** est un jeu de tir à la première personne (FPS) dans lequel le joueur doit compléter les niveaux le plus rapidement possible. Pour y parvenir, il devra éliminer les ennemis efficacement tout en maîtrisant la vitesse et les mécaniques de parkour.
+
+## Contexte du projet
+Ce jeu a été développé du cours de **Jeux vidéo II** du programme **Techniques de l'informatique** au **Cégep de Sainte-Foy**.
+
+## Outils
+Ce jeu a été développé avec **Unity**.
+

@@ -28,11 +28,14 @@ description: "Un jeu Puzzle-Plateforme avec des pouvoirs de magnétisme"
 </div>
 
 ## Présentation du jeu
-Newton & Bolt est un jeu de plateforme-puzzle dans lequel un robot nommé Newton doit fuir une ville remplie de robots hostiles pour ramener son ami chien, Bolt, sain et sauf à la maison.
+**Newton & Bolt** est un jeu de plateforme-puzzle dans lequel un robot nommé Newton doit fuir une ville remplie de robots hostiles pour ramener son ami chien, Bolt, sain et sauf à la maison.
 Pour cela, le joueur doit esquiver les patrouilles ennemis et parcourir les environnements en s'aimantant sur les murs.
 
 ## Contexte du projet
 Ce jeu a été développé lors du cours de Atelier de production de jeux vidéo I à l'UQAC en automne 2025. Ce jeu est ma première production d'un jeu en équipe multidisciplinaire et aussi mon premier projet complet sur le moteur Unreal Engine.
+
+## Outils
+Ce jeu a été développé avec **Unreal Engine 5**.
 
 ## Mon travail
 J'ai eu le rôle de développeur Gameplay/UI sur le projet.
@@ -52,7 +55,7 @@ Après des recherches, j’ai constaté que le MoviePlayer offrait une meilleure
 Ce sous-système, intégré à la GameInstance, sert à jouer des musiques facilement et à les faire boucler même lors d’une transition de niveau. Il utilise la méthode SpawnSound2D pour ajouter un son au niveau, en activant le paramètre vPersistAcrossLevelTransition afin que la musique persiste d’un niveau à l’autre. Le volume du nouveau son commence à zéro, ce qui permet de l’augmenter progressivement. S’il y avait une musique déjà en cours, on peut en diminuer le volume graduellement pour créer un crossfade. Ensuite, ce sous-système peut être utilisé à partir d’un Level Blueprint pour commencer en début de niveau ou avec des zones dans le niveau qui appelle le sous-système quand le joueur entre dans la zone.
 
 ### Tapis roulant et Pool d'objets
-<video src="/videos/newtonNBolt/ConeDeVision.mp4" autoplay muted loop></video> <br>
+<video src="/videos/newtonNBolt/TapisRoulant.mp4" autoplay muted loop></video> <br>
 Le tapis roulant utilise un composant appelé ConveyorComponent. Celui-ci contient un BoxComponent qui détecte lorsqu’un acteur y entre. Pour chaque acteur présent dans la zone, un déplacement est appliqué à chaque Tick dans une direction donnée et à une certaine vitesse. Ces deux paramètres peuvent être modifiés dans la version Blueprint ou individuellement pour chaque instance.
 Deux autres acteurs servent à créer un pool d’objets. PropGenerator génère au début du jeu un certain nombre d’instances d’objets désactivées. La quantité d’instances et le type d’objet peuvent être ajustés par les designers. Après un délai défini, un objet désactivé est réactivé et placé à la position du PropGenerator. L’acteur PropDisabler, de son côté, détecte lorsqu’un objet entre dans sa zone et le désactive. Ensemble, ces deux acteurs permettent de maintenir une boucle infinie d’objets.
 

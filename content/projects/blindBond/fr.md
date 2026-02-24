@@ -13,4 +13,11 @@ context: "GameJam"
 role: "Level designer"
 description: "Jeu coopératif en ligne"
 ---
-Dans ce jeu coopératif en ligne, deux joueurs doivent s'entraider pour traverser les niveaux. La particularité : chacun ne voit que le personnage de l'autre, jamais le sien.
+## Présentation du jeu
+**Blind Bond** est un jeu coopératif en ligne dans lequel deux joueurs doivent s'entraider pour traverser les niveaux. La particularité : chacun ne voit que le personnage de l'autre, jamais le sien.
+
+## Contexte du projet
+Ce jeu a été développé lors de la **Mini Jam 77 : Courage**.
+
+## Outils
+Ce jeu a été développé avec **Construct 3**.

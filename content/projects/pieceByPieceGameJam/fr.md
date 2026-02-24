@@ -10,7 +10,15 @@ tags:
     - Gamejam
 layout: project
 context: "Wonderjam automne 2024 (GameJam interne à l'UQAC)"
-role: "Programmeur UI/UX"
+role: "Programmeur UI, Designer"
 description: "Jeu de casse-tête"
 ---
-1ère place dans la GameJam. Dans ce jeu de casse-tête, le joueur doit déplacer les pièces d'un puzzle pour se frayer un chemin jusqu'à la sortie.
+## Présentation du jeu  
+**Piece by Piece** est un jeu de plateforme-puzzle dans lequel chaque niveau est composé de pièces de puzzle que le joueur doit assembler afin de se créer un chemin vers l’arrivée.  
+Le jeu a d’abord remporté la Wonderjam automne 2024 avant d’être développé comme un jeu commercial.
+
+## Contexte du projet  
+Ce jeu a été développé lors de la Game Jam Wonderjam de l’UQAC à l’automne 2024. Il a remporté la **1ère place**.
+
+## Outils  
+Ce jeu a été développé avec **Godot 4**.

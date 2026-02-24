@@ -13,4 +13,10 @@ context: "GameJam"
 role: "Level designer / Game designer"
 description: "Jeu d'infiltration"
 ---
-Dans ce jeu d'infiltration, le joueur doit traverser les niveaux sans se faire repérer. Mais une copie maléfique le suit de près, mimant chacun de ses mouvements.
+## Présentation du jeu
+**Neon Shadows** est un jeu d'infiltration dans lequel le joueur doit traverser les niveaux sans se faire repérer. Mais, une copie maléfique le suit de près, mimant chacun de ses mouvements.
+## Contexte du projet
+Ce jeu a été développé de la **Mini Jam 86 : Sports**.
+
+## Outils
+Ce jeu a été développé avec **Construct 3**.

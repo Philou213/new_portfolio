@@ -14,10 +14,13 @@ role: "Programmeur Gameplay / UI, Design sonore"
 description: "Clickclickclickclickclickclick"
 ---
 ## Présentation du jeu
-Click Farm est un jeu d'automatisation. Le joueur doit faire le plus de clics possible et pour cela, il peut utiliser des machines de plus en plus avancé.
+**Click Farm** est un jeu d'automatisation. Le joueur doit faire le plus de clics possible et pour cela, il peut utiliser des machines de plus en plus avancé.
 
 ## Contexte du projet
-Ce jeu a été développé lors de la **Code Game Jam 2026**. Il a été fait en moins de 30h en équipe de 3 membres.
+Ce jeu a été développé lors de la **Code Game Jam 2026**. Il a été fait en moins de 30h en équipe de 3 membres. Le jeu a remporté la **2ème place**.
+
+## Outils
+Ce jeu a été développé avec **Godot 4**.
 
 ## Mon travail
 J'ai travaillé sur les interfaces, les menus et sur le système d'achat et d'économie du jeu.

@@ -10,8 +10,17 @@ tags:
     - Gamejam
 layout: project
 context: "Wonderjam hiver 2025 (GameJam interne à l'UQAC)"
-role: "Programmeur (Système d'achat d'objets, système de ressources)"
+role: "Programmeur et designer"
 description: "Jeu de survie et de minage"
 ---
-1ère place dans la GameJam.  
-Dans ce jeu de survie, le joueur doit extraire des minerais tout en évitant de se faire attraper par des monstres dans l'obscurité.
+## Présentation du jeu  
+**Replay** est un jeu de survie dans lequel le joueur doit extraire des minerais tout en évitant de se faire attraper par des monstres dans l'obscurité.
+
+## Contexte du projet  
+Ce jeu a été développé lors de la **Wonderjam Hiver 2025**. Il a remporté la **1ère place**.
+
+## Outils  
+Ce jeu a été développé avec **Godot 4**.
+
+## Mon travail
+J'ai travaillé sur le système de ressources et de fabrication d'objets. 

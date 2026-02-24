@@ -15,10 +15,13 @@ role: "Développeur Gameplay/Réseau"
 description: "Jeu multijoueur en ligne de déduction "
 ---
 ## Présentation du jeu
-Murder est un jeu multijoueur en ligne de déduction. Inspiré de *Among Us* et du mode Murder sur *Garry's mod*.
+**Murder** est un jeu multijoueur en ligne de déduction. Inspiré de *Among Us* et du mode Murder sur *Garry's mod*.
 
 ## Contexte du projet
 Ce jeu a été développé lors du cours de **Programmation réseau multi-joueurs en ligne** à l'UQAC en automne 2025. Ce jeu est mon premier projet en multijoueur en ligne.
+
+## Outils
+Ce jeu a été développé avec **Unreal Engine 5**.
 
 ## Mon travail
 J'ai travaillé principalement travaillé sur le jeu en solo. Tout le développement réseau a été fait par moi.

@@ -15,10 +15,13 @@ role: "Gameplay/Network developer"
 description: "Online multiplayer deduction game"
 ---
 ## Game Overview
-Murder is an online multiplayer deduction game inspired by *Among Us* and the Murder game mode from *Garry’s Mod*.
+**Murder** is an online multiplayer deduction game inspired by *Among Us* and the Murder game mode from *Garry’s Mod*.
 
 ## Project Context
 This project was developed as part of the **Online Multiplayer Network Programming** course at UQAC in Fall 2025. It is my first online multiplayer project.
+
+## Tools
+This game was developed using **Unreal Engine 5**.
 
 ## My Contribution
 I worked primarily solo on this project. All networking-related development was implemented by me.

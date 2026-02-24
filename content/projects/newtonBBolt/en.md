@@ -34,6 +34,9 @@ To do so, the player must avoid enemy patrols and navigate the environments by m
 ## Project Context
 This game was developed as part of the **Atelier de production de jeux vidéo I** course at UQAC in Fall 2025. It is my first multidisciplinary team production and also my first complete project developed with Unreal Engine.
 
+## Tools
+This game was developed using **Unreal Engine 5**.
+
 ## My Contribution
 I worked on the project as a **Gameplay / UI Developer**.
 
@@ -53,7 +56,7 @@ This subsystem, integrated into the GameInstance, handles music playback and ens
 New tracks start with their volume set to zero and fade in gradually. If a track is already playing, its volume is smoothly reduced to create a crossfade. The subsystem can be triggered either from a Level Blueprint at level start or via trigger zones that call the subsystem when the player enters them.
 
 ### Conveyor Belt and Object Pooling
-<video src="/videos/newtonNBolt/ConeDeVision.mp4" autoplay muted loop></video> <br>
+<video src="/videos/newtonNBolt/TapisRoulant.mp4" autoplay muted loop></video> <br>
 The conveyor belt is implemented using a `ConveyorComponent`, which contains a `BoxComponent` to detect actors entering the zone. Each actor within the zone is moved every tick in a specified direction at a configurable speed. These parameters can be adjusted in Blueprint or per instance.  
 Two additional actors are used to implement object pooling. `PropGenerator` spawns a predefined number of disabled object instances at the start of the game. Both the number of instances and the object type can be configured by designers. After a set delay, a disabled object is reactivated and placed at the generator’s location. The `PropDisabler` actor detects when an object enters its zone and disables it. Together, these actors create an infinite loop of reusable objects.
 
