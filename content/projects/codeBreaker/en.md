@@ -1,7 +1,7 @@
 ---
 title: Code Breaker
 locale: en
-release: "On Hold"
+release: "On hold"
 image: /images/projects/codeBreaker.png
 link: https://psonbre.itch.io/code-breaker
 type: "Construct"

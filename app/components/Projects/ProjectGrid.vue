@@ -12,7 +12,7 @@ const { data: projects } = await useAsyncData(
 
     const getReleaseOrder = (release: unknown) => {
       if (release === 'En développement' || release === 'In development') return Number.POSITIVE_INFINITY
-      if (release === 'Abandonné') return Number.NEGATIVE_INFINITY
+      if (release === 'En pause' || release === 'On hold') return Number.NEGATIVE_INFINITY
       return Number(release) || 0
     }
 
