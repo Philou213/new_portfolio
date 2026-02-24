@@ -6,7 +6,8 @@ logo: /icons/career/kupa.png
 tech:
   - Javascript
   - Typescript
+  - React
 order: 2
 ---
 
-- Développement web full-stack
+- Développement web full-stack avec React

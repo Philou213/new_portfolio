@@ -6,7 +6,8 @@ logo: /icons/career/revenuQuebec.png
 tech:
   - C#
   - Javascript
+  - Angular
 order: 1
 ---
 
-- Développement web full-stack
+- Développement .Net et Frontend avec Angular

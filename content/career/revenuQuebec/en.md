@@ -6,7 +6,8 @@ logo: /icons/career/revenuQuebec.png
 tech:
   - C#
   - Javascript
+  - Angular
 order: 1
 ---
 
-- Fullstack web development
+- .Net development and Frontend with Angular
