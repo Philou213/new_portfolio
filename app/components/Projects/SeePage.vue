@@ -4,7 +4,7 @@ const { t } = useI18n()
 
 defineProps({
   project_link: {
-    type: Object as PropType<any>,
+    type: String,
     required: true,
   },
 })

@@ -29,5 +29,5 @@ I worked on three mini-games:
 - *Credit Game for the Death of the Universe*  
 - *À l'aide! Je suis un garde frontière et on n'arrête pas de me voler mon panneau!*  
 - *Dave in the Backrooms*  
-<br>
+<br><br>
 I also contributed to the game’s sound design.
