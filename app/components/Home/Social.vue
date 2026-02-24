@@ -29,6 +29,11 @@ const socials: Social[] = [
     url: 'https://www.linkedin.com/in/philippe-st-laurent-recoura-9bb40224a/',
     icon: 'i-simple-icons-linkedin',
   },
+  {
+    name: 'Email',
+    url: 'mailto:philippestlr@gmail.com',
+    icon: 'i-simple-icons-maildotru',
+  }
 ]
 </script>
 
