@@ -43,12 +43,12 @@ J’ai occupé le rôle de **développeur UI et designer** sur le projet. J’ai
 
 ### Interfaces et menus  
 Mise en place d’un système d’interface modulaire dans Godot, supportant la navigation à la souris, au clavier et à la manette. Le système gère le focus, les transitions et les interactions de manière cohérente, indépendamment du périphérique d’entrée utilisé.  
-
+<br>
 Les menus ont été conçus pour être facilement extensibles et maintenables. Le système est réutilisable pour d’autres projets.
 
 ### Sous-système de son / musique  
 Développement d’un sous-système audio global dans Godot, responsable de la gestion des musiques et des effets sonores, avec prise en charge des crossfades, de la persistance et des modifications sonores.  
-
+<br>
 Un outil personnalisé permet de parcourir les fichiers audio du projet et de les enregistrer dans une structure clé/valeur, offrant une interface simple pour déclencher les sons en code sans dépendre de chemins de fichiers explicites.
 
 ### Conception de mécaniques  
@@ -63,5 +63,5 @@ Conception de mécaniques visant à complexifier le jeu, notamment :
 
 ### Conception de niveaux  
 La conception des niveaux a représenté un réel défi, car il fallait créer des niveaux qui, à première vue, semblent difficiles, mais qui, après réflexion et expérimentation, restent relativement accessibles.  
-
+<br>
 Il fallait également introduire progressivement les nouvelles mécaniques et s’assurer que les joueurs les comprennent afin de pouvoir aborder les niveaux plus avancés.

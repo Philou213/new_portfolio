@@ -43,12 +43,12 @@ I worked as a **UI Developer and Designer** on the project. My responsibilities 
 
 ### UI and Menu Systems  
 Implemented a modular UI system in Godot supporting mouse, keyboard, and controller navigation. The system handles focus management, transitions, and interactions consistently across all input devices.  
-
+<br>
 The menus were designed to be easily extensible and maintainable. The system is reusable for future projects.
 
 ### Audio / Music Subsystem  
 Developed a global audio subsystem in Godot responsible for managing music and sound effects, including support for crossfades, persistence, and dynamic audio modifications.  
-
+<br>
 A custom tool was created to browse project audio files and register them into a key/value structure, providing a clean interface for triggering sounds in code without relying on explicit file paths.
 
 ### Gameplay Mechanics Design  
@@ -63,5 +63,5 @@ Designed mechanics to increase gameplay complexity, including:
 
 ### Level Design  
 Level design was a significant challenge, as levels needed to appear difficult at first glance while remaining accessible after experimentation and reflection.  
-
+<br>
 It was also essential to progressively introduce new mechanics and ensure players understood them before encountering more advanced challenges.
