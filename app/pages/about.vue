@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import JobCard from '~/components/Career/JobCard.vue';
 import JobTimeline from '~/components/Career/JobTimeline.vue';
+import SchoolTimeline from '~/components/School/SchoolTimeline.vue';
 import Languages from '~/components/Skill/Languages.vue';
 import Software from '~/components/Skill/Software.vue';
 
@@ -35,6 +36,9 @@ useHead({
     </section>
     <section class="pt-5 pb-5">
         <JobTimeline></JobTimeline>
+    </section>
+      <section class="pt-5 pb-5">
+        <SchoolTimeline></SchoolTimeline>
     </section>
     <section class="pt-5 pb-5">
         <Languages></Languages>

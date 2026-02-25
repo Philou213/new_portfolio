@@ -18,7 +18,7 @@ defineProps<{
         class="h-10 w-10 md:h-20 md:w-20 object-contain absolute top-4 left-4"
       />
 
-      <h3 class="text-lg font-semibold">
+      <h3 class="text-lg font-semibold max-w-xs">
         {{ job.title }}
       </h3>
 

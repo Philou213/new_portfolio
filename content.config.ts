@@ -13,6 +13,10 @@ export default defineContentConfig({
     experiences : defineCollection({
       type: 'page',
       source: 'career/**'
+    }),
+    educations : defineCollection({
+      type: 'page',
+      source: 'school/**'
     })
   }
 })
