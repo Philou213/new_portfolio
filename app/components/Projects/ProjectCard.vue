@@ -24,8 +24,9 @@ defineProps({
     <div class="flex h-56 justify-center overflow-hidden rounded-lg">
       <NuxtImg
         :src="project.meta.image"
-        class="h-full rounded-lg object-cover transition-all duration-300 hover:scale-105"
-        :alt="project.meta.image"
+        class="h-full w-full rounded-lg object-cover transition-all duration-300 hover:scale-105"
+        :alt="project.title"
+        placeholder
       />
     </div>
 

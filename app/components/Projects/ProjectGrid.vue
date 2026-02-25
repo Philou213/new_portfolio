@@ -42,7 +42,6 @@ function projectPage(path: string) {
 
 <template>
   <div v-if="projects" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 w-full">
-
     <ProjectCard
       v-for="project in projects"
       :key="project.path"
