@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard.vue'
 
 const { locale } = useI18n()
 
-const { data: projects } = await useAsyncData(
+const { data: projects, pending } = await useAsyncData(
   'projects',
   async () => {
     const projects = await queryCollection('projects')
@@ -20,7 +20,11 @@ const { data: projects } = await useAsyncData(
       (a, b) => getReleaseOrder(b.meta.release) - getReleaseOrder(a.meta.release)
     )
   },
-  { watch: [locale] }
+  { watch: [locale],
+    lazy: false,
+    default: () => [],
+    immediate : true
+   }
 )
 
 
@@ -38,6 +42,7 @@ function projectPage(path: string) {
 
 <template>
   <div v-if="projects" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 w-full">
+
     <ProjectCard
       v-for="project in projects"
       :key="project.path"
