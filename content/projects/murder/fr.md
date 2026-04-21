@@ -24,7 +24,7 @@ Ce jeu a été développé lors du cours de **Programmation réseau multi-joueur
 Ce jeu a été développé avec **Unreal Engine 5**.
 
 ## Mon travail
-J'ai travaillé principalement travaillé sur le jeu en solo. Tout le développement réseau a été fait par moi.
+Tout le développement réseau et la majorité du développement Gameplay a été fait par moi, excepté le mini-jeu.
 
 ### Architecture autorité serveur
 Le projet repose sur une **architecture réseau à autorité serveur**, utilisant la réplication d’Unreal Engine et des RPCs pour gérer la communication entre clients et serveur. Les décisions critiques sont validées côté serveur afin d’assurer la cohérence du jeu et de limiter les abus.

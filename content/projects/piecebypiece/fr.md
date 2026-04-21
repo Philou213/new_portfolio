@@ -1,7 +1,7 @@
 ---
 title: Piece by Piece
 locale: fr
-release: En développement
+release: 2026
 image: /images/projects/pieceByPiece.png
 link: https://store.steampowered.com/app/3249380/Piece_by_Piece/
 type: "Godot"
