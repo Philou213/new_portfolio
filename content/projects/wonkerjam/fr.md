@@ -1,7 +1,7 @@
 ---
 title: WonkerJam
 locale: fr
-release: 2025
+release: 2025-10-12
 image: /images/projects/wonkerJam.png
 link: https://psonbre.itch.io/wonkerjam
 type: "Godot"

@@ -1,7 +1,7 @@
 ---
 title: Double Time
 locale: fr
-release: 2023
+release: 2023-12-20
 image: /images/projects/doubleTime.png
 link: https://philou213.itch.io/double-time
 type: "Unity"

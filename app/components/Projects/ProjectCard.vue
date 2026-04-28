@@ -13,6 +13,22 @@ defineProps({
   }
 })
 
+const formatRelease = (release: string) => {
+  if (!release) return ''
+ 
+  const isoDateRegex = /^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$/
+
+  if (!isoDateRegex.test(release)) {
+    return release // fallback (e.g. "In development", "2026-06", etc.)
+  }
+
+  const date = new Date(release)
+  return new Intl.DateTimeFormat(locale.value, {
+    year: 'numeric',
+    month: 'long'
+  }).format(date)
+}
+
 </script>
 
 <template>
@@ -44,7 +60,7 @@ defineProps({
           </span>
 
           <span class="text-xs text-white/60">
-            {{ project.meta.release === 'soon' ? 'Soon…' : project.meta.release }}
+            {{ project.meta.release === 'soon' ? 'Soon…' : formatRelease(project.meta.release) }}
           </span>
         </div>
       </div>

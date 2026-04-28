@@ -1,7 +1,7 @@
 ---
 title: Cheryl & Donna’s Cardio Combat
 locale: en
-release: 2026
+release: 2026-05-14
 image: /images/projects/cardioCombat.jpg
 link: https://joanieb.itch.io/cheryl-donnas-cardio-combat
 type: "Unreal"

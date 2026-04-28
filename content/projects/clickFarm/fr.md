@@ -1,7 +1,7 @@
 ---
 title: Click Farm
 locale: fr
-release: 2026
+release: 2026-01-24
 image: /images/projects/clickFarm.png
 link: https://psonbre.itch.io/click-farm
 type: "Godot"

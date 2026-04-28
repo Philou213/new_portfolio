@@ -1,7 +1,7 @@
 ---
 title: Piece by Piece (Game Jam)
 locale: en
-release: 2024
+release: 2024-10-13
 image: /images/projects/pieceByPieceGamejam.png
 link: https://psonbre.itch.io/piece-by-piece
 type: "Godot"

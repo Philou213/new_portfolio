@@ -1,7 +1,7 @@
 ---
 title: Voidlight
 locale: en
-release: 2025
+release: 2025-03-02
 image: /images/projects/voidlight.png
 link: https://psonbre.itch.io/wonderjam
 type: "Godot"

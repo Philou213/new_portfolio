@@ -1,7 +1,7 @@
 ---
 title: Loaded Dice
 locale: fr
-release: 2022
+release: 2022-07-17
 image: /images/projects/loadedDice.png
 link: https://xeok.itch.io/loaded-dice
 type: "Construct"

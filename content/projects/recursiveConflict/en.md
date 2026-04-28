@@ -1,7 +1,7 @@
 ---
 title: Recursive Conflict
 locale: en
-release: 2025
+release: 2025-08-03
 image: /images/projects/recursiveConflict.png
 link: https://philou213.itch.io/recursive-conflict
 repo: https://github.com/Philou213/GMTK2025

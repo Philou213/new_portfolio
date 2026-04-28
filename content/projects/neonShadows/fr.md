@@ -1,7 +1,7 @@
 ---
 title: Neon Shadows
 locale: fr
-release: 2021
+release: 2021-09-09
 image: /images/projects/neonShadows.png
 link: https://psonbre.itch.io/neon-shadows
 type: "Construct"

@@ -13,7 +13,9 @@ const { data: projects, pending } = await useAsyncData(
     const getReleaseOrder = (release: unknown) => {
       if (release === 'En développement' || release === 'In development') return Number.POSITIVE_INFINITY
       if (release === 'En pause' || release === 'On hold') return Number.NEGATIVE_INFINITY
-      return Number(release) || 0
+      
+        const time = Date.parse(String(release))
+        return isNaN(time) ? 0 : time
     }
 
     return projects.sort(

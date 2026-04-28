@@ -1,7 +1,7 @@
 ---
 title: You are a triangle
 locale: fr
-release: 2020
+release: 2020-07-12
 image: /images/projects/youAreATriangle.png
 link: https://psonbre.itch.io/you-are-a-triangle-playtesting
 type: "Construct"

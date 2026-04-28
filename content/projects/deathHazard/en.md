@@ -1,7 +1,7 @@
 ---
 title: Death Hazard
 locale: en
-release: 2021
+release: 2021-01-27
 image: /images/projects/deathHazard.png
 link: https://philou213.itch.io/death-hazard
 type: "Godot"

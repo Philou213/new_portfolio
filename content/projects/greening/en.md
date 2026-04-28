@@ -1,7 +1,7 @@
 ---
 title: Greening
 locale: en
-release: 2021
+release: 2021-03-29
 image: /images/projects/greening.png
 link: https://psonbre.itch.io/greening
 type: "Construct"

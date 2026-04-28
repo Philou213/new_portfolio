@@ -1,7 +1,7 @@
 ---
 title: Re:Play
 locale: fr
-release: 2024
+release: 2024-06-02
 image: /images/projects/replay.png
 link: https://psonbre.itch.io/replay
 type: "Unity"

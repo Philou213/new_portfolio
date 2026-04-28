@@ -1,7 +1,7 @@
 ---
 title: Dog of Duty
 locale: fr
-release: 2022
+release: 2022-04-09
 image: /images/projects/dogOfDuty.png
 link: https://psonbre.itch.io/dog-of-duty
 type: "Construct"

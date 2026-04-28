@@ -1,8 +1,8 @@
 ---
 title: Murder
 locale: fr
-release: 2025
-featured : true
+release: 2025-12-20
+featured : false
 image: /images/projects/murder.jpg
 repo: https://github.com/Philou213/TP_Murder
 type: "Unreal"

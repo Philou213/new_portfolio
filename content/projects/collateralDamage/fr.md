@@ -1,7 +1,7 @@
 ---
 title: Collateral Damage
 locale: fr
-release: 2024
+release: 2024-03-08
 image: /images/projects/collateral.png
 link: https://psonbre.itch.io/collateral-damage
 repo: https://gitlab.com/Psonbre/ProjetSynthese_NeonPolygons

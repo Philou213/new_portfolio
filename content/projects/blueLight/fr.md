@@ -1,7 +1,7 @@
 ---
 title: Blue Light
 locale: fr
-release: 2024
+release: 2024-07-21
 image: /images/projects/blueLight.png
 link: https://psonbre.itch.io/blue-light
 type: "Unity"

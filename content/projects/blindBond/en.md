@@ -1,7 +1,7 @@
 ---
 title: Blind Bond
 locale: en
-release: 2021
+release: 2021-04-05
 image: /images/projects/blindBond.png
 link: https://psonbre.itch.io/blind-bond
 type: "Construct"

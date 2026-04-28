@@ -1,7 +1,7 @@
 ---
 title: Newton & Bolt
 locale: en
-release: 2025
+release: 2025-12-13
 image: /images/projects/newtonNBolt.png
 link: https://astro-starboy.itch.io/newton-et-bolt
 type: "Unreal"

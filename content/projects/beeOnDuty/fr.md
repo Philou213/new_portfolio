@@ -1,7 +1,7 @@
 ---
 title: Bee on Duty
 locale: fr
-release: 2023
+release: 2023-01-29
 image: /images/projects/beeOnDuty.png
 link: https://psonbre.itch.io/bee-on-duty
 type: "Construct"
