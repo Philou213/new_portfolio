@@ -5,9 +5,7 @@ release: 2024-10-13
 image: /images/projects/pieceByPieceGamejam.png
 link: https://psonbre.itch.io/piece-by-piece
 type: "Godot"
-tags:
-    - Godot
-    - Gamejam
+tags: [godot, gamejam]
 layout: project
 context: "Wonderjam automne 2024 (GameJam interne à l'UQAC)"
 role: "Programmeur UI, Designer"

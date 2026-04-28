@@ -4,10 +4,7 @@ locale: en
 release: 2024-06-02
 image: /images/projects/replay.png
 link: https://psonbre.itch.io/replay
-type: "Unity"
-tags:
-    - Unity
-    - Game Jam
+tags: [unity, gamejam]
 layout: project
 context: "Micro Jam 15: Ghost"
 role: "Gameplay Programmer / Level Designer / Game Designer"

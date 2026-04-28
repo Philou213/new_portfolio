@@ -4,11 +4,7 @@ locale: en
 release: 2021-01-27
 image: /images/projects/deathHazard.png
 link: https://philou213.itch.io/death-hazard
-type: "Godot"
-tags:
-    - Godot
-    - Academic
-    - Solo
+tags: [school, godot, solo]
 layout: project
 context: "Personal PEI Final Project"
 role: "Solo Developer"

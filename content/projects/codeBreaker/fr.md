@@ -4,10 +4,7 @@ locale: fr
 release: "En pause"
 image: /images/projects/codeBreaker.png
 link: https://psonbre.itch.io/code-breaker
-type: "Construct"
-tags:
-    - Construct
-    - Personnel
+tags: [construct, personal]
 layout: project
 context: "Projet Personnel"
 role: "Level designer / Game designer"

@@ -4,10 +4,7 @@ locale: fr
 release: 2021-04-05
 image: /images/projects/blindBond.png
 link: https://psonbre.itch.io/blind-bond
-type: "Construct"
-tags:
-    - Construct
-    - Gamejam
+tags: [construct, gamejam]
 layout: project
 context: "GameJam"
 role: "Level designer"

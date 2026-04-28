@@ -5,10 +5,7 @@ release: 2025-12-20
 featured : false
 image: /images/projects/murder.jpg
 repo: https://github.com/Philou213/TP_Murder
-type: "Unreal"
-tags:
-    - Unreal
-    - Scolaire
+tags: [unreal, school, online]
 layout: project
 context: "School project"
 role: "Gameplay/Network developer"

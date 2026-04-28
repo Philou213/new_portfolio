@@ -4,10 +4,7 @@ locale: en
 release: 2021-09-09
 image: /images/projects/neonShadows.png
 link: https://psonbre.itch.io/neon-shadows
-type: "Construct"
-tags:
-    - Construct
-    - Game Jam
+tags: [construct, gamejam]
 layout: project
 context: "Mini Jam 86: Sports"
 role: "Level Designer / Game Designer"

@@ -4,10 +4,7 @@ locale: fr
 release: 2026-05-14
 image: /images/projects/cardioCombat.jpg
 link: https://joanieb.itch.io/cheryl-donnas-cardio-combat
-type: "Unreal"
-tags:
-    - Unreal
-    - Academic
+tags: [school, unreal]
 layout: project
 context: "Concours Ubisoft 2026"
 role: " Programmeur Gameplay & UI, Concepteur sonore"

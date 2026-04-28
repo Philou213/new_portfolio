@@ -4,10 +4,7 @@ locale: en
 release: 2022-07-17
 image: /images/projects/loadedDice.png
 link: https://xeok.itch.io/loaded-dice
-type: "Construct"
-tags:
-    - Construct
-    - Game Jam
+tags: [construct, gamejam]
 layout: project
 context: "GMTK Game Jam 2022"
 role: "Game Designer"

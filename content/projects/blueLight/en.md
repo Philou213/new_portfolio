@@ -4,10 +4,7 @@ locale: en
 release: 2024-07-21
 image: /images/projects/blueLight.png
 link: https://psonbre.itch.io/blue-light
-type: "Unity"
-tags:
-    - Unity
-    - Game Jam
+tags: [unity, gamejam]
 layout: project
 context: "Kenney Game Jam 2024"
 role: "Level Designer / Gameplay Programmer"

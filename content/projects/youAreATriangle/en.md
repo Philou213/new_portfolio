@@ -4,10 +4,7 @@ locale: en
 release: 2020-07-12
 image: /images/projects/youAreATriangle.png
 link: https://psonbre.itch.io/you-are-a-triangle-playtesting
-type: "Construct"
-tags:
-    - Construct
-    - Game Jam
+tags: [construct, gamejam]
 layout: project
 context: "GMTK Game Jam 2020"
 role: "Game Designer / Sound Designer"

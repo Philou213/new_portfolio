@@ -4,11 +4,7 @@ locale: fr
 release: 2026
 image: /images/projects/portfolio.png
 repo: https://github.com/Philou213/portfolio
-type: "Web"
-tags:
-    - Web
-    - Solo
-    - Personnel
+tags: [web, solo, personal]
 layout: project
 context: "Portfolio"
 role: "Développeur"

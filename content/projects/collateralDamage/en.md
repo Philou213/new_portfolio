@@ -5,11 +5,7 @@ release: 2024-03-08
 image: /images/projects/collateral.png
 link: https://psonbre.itch.io/collateral-damage
 repo: https://gitlab.com/Psonbre/ProjetSynthese_NeonPolygons
-type: "Unity"
-tags:
-    - Unity
-    - Academic
-    - Favorite
+tags: [unity, school]
 layout: project
 context: "Final Project – Computer Science Technology Program"
 role: "UI/UX Programmer, Game Designer"

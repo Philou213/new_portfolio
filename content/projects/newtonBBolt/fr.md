@@ -4,10 +4,7 @@ locale: fr
 release: 2025-12-13
 image: /images/projects/newtonNBolt.png
 link: https://astro-starboy.itch.io/newton-et-bolt
-type: "Unreal"
-tags:
-    - Unreal
-    - Scolaire
+tags: [unreal, school]
 layout: project
 featured: true
 context: "Projet scolaire multidisciplinaire"

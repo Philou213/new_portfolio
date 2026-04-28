@@ -4,10 +4,7 @@ locale: en
 release: 2021-04-05
 image: /images/projects/blindBond.png
 link: https://psonbre.itch.io/blind-bond
-type: "Construct"
-tags:
-    - Construct
-    - Game Jam
+tags: [construct, gamejam]
 layout: project
 context: "Mini Jam 77: Courage"
 role: "Level Designer"

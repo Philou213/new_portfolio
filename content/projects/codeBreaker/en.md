@@ -4,10 +4,7 @@ locale: en
 release: "On hold"
 image: /images/projects/codeBreaker.png
 link: https://psonbre.itch.io/code-breaker
-type: "Construct"
-tags:
-    - Construct
-    - Personal
+tags: [construct, personal]
 layout: project
 context: "Personal Project"
 role: "Level Designer / Game Designer"

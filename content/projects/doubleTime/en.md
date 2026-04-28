@@ -4,10 +4,7 @@ locale: en
 release: 2023-12-20
 image: /images/projects/doubleTime.png
 link: https://philou213.itch.io/double-time
-type: "Unity"
-tags:
-    - Unity
-    - Academic
+tags: [unity, school]
 layout: project
 context: "Computer Science Technology Program Project"
 role: "Programmer"

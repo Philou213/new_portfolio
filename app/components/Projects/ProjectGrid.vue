@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Searchbar from '../Search/Searchbar.vue'
+import TagDropdown from '../Search/TagDropdown.vue'
 import ProjectCard from './ProjectCard.vue'
 
 const { locale } = useI18n()
@@ -35,8 +36,19 @@ const { data: projects, pending } = await useAsyncData(
 const filteredProjects = computed(() => {
   if (!projects.value) return []
 
-  return projects.value.filter(p =>
-    p.title.toLowerCase().includes(search.value.toLowerCase())
+  return projects.value.filter(p => {
+    const matchesSearch =
+      p.title.toLowerCase().includes(search.value.trim().toLowerCase())
+
+    const matchesTags =
+      tags.value.length === 0 ||
+      (() => {
+        const projectTags = Array.isArray(p.meta.tags) ? p.meta.tags : []
+        return tags.value.every(tag => projectTags.includes(tag))
+      })()
+
+    return matchesSearch && matchesTags
+    }
   )
 })
 
@@ -52,10 +64,20 @@ function projectPage(path: string) {
 }
 
 const search = ref('')
+const tags = ref<string[]>([])
+
 </script>
 
 <template>
-  <Searchbar v-model="search"></Searchbar>
+  <div class="flex gap-4">
+    <div class="w-3/5">
+      <Searchbar v-model="search" />
+    </div>
+
+    <div class="w-2/5">
+      <TagDropdown v-model="tags" />
+    </div>
+  </div>
   <div v-if="projects" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 w-full">
     <ProjectCard
       v-for="project in filteredProjects"

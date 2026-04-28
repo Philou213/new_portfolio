@@ -4,11 +4,7 @@ locale: en
 release: 2025-10-12
 image: /images/projects/wonkerJam.png
 link: https://psonbre.itch.io/wonkerjam
-type: "Godot"
-tags:
-    - Godot
-    - Game Jam
-    - Favorite
+tags: [godot, gamejam]
 layout: project
 context: "Wonderjam Fall 2025 (Internal UQAC Game Jam)"
 role: "Gameplay Programmer / Game Designer / Artist / Sound Designer"

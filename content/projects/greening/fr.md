@@ -4,10 +4,7 @@ locale: fr
 release: 2021-03-29
 image: /images/projects/greening.png
 link: https://psonbre.itch.io/greening
-type: "Construct"
-tags:
-    - Construct
-    - Gamejam
+tags: [construct, gamejam]
 layout: project
 context: "GameJam"
 role: "Game designer"

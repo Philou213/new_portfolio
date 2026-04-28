@@ -20,7 +20,8 @@
     "Context" : "Contexte",
     "Error" : "Le projet n'existe pas",
     "Back" : "Retour",
-    "Search" : "Rechercher un projet"
+    "Search" : "Rechercher un projet",
+    "Tags" :"Rechercher par tags"
   },
   "About":{
     "Title" : "À propos de moi"
@@ -28,5 +29,26 @@
   "Software" : "Logiciels",
   "Languages" : "Langages",
   "Experiences" : "Emplois",
-  "School" : "Éducation"
+  "School" : "Éducation",
+
+  "tags": {
+    "unity" : "Unity",
+    "unreal": "Unreal",
+    "godot": "Godot",
+    "c++": "C++",
+    "solo": "Solo",
+    "team": "Équipe",
+    "vr": "VR",
+    "multiplayer": "Multijoueur",
+    "tool": "Outil",
+    "gamejam": "Gamejam",
+    "school": "Scolaire",
+    "award": "Récompensé",
+    "web": "Web",
+    "mobile": "Mobile",
+    "indie": "Indépendant",
+    "online": "En ligne",
+    "construct": "Construct",
+    "personal": "Personnel"
+  }
 }

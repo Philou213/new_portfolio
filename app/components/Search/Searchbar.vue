@@ -37,7 +37,7 @@ function clear() {
       v-model="localValue"
       type="text"
       :placeholder="$t('Projects.Search')"
-      class="w-full mb-6 rounded border border-main bg-bg-surface hover:bg-bg-surfaceHover px-4 py-2 pr-10 text-text-secondary focus:border-text-main focus:outline-none"
+      class="w-full mb-6 rounded border bg-bg-surface hover:bg-bg-surfaceHover px-4 py-2 pr-10 text-text-secondary focus:border-text-main focus:outline-none"
       aria-label="Search"
     />
 

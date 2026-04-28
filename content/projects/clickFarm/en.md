@@ -4,10 +4,7 @@ locale: en
 release: 2026-01-24
 image: /images/projects/clickFarm.png
 link: https://psonbre.itch.io/click-farm
-type: "Godot"
-tags:
-    - Godot
-    - Game Jam
+tags: [godot,gamejam]
 layout: project
 context: "Code Game Jam 2026"
 role: "Gameplay / UI Programmer, Sound Design"

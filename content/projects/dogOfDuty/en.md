@@ -4,10 +4,7 @@ locale: en
 release: 2022-04-09
 image: /images/projects/dogOfDuty.png
 link: https://psonbre.itch.io/dog-of-duty
-type: "Construct"
-tags:
-    - Construct
-    - Game Jam
+tags: [construct, gamejam]
 layout: project
 context: "Valleyfield Intercollegiate Game Jam 2022"
 role: "Game Designer"

@@ -4,10 +4,7 @@ locale: fr
 release: 2024-07-21
 image: /images/projects/blueLight.png
 link: https://psonbre.itch.io/blue-light
-type: "Unity"
-tags:
-    - Unity
-    - Gamejam
+tags: [unity, gamejam]
 layout: project
 context: "GameJam 2024"
 role: "Level designer / Programmeur Gameplay"

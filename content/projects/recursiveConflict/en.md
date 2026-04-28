@@ -5,11 +5,7 @@ release: 2025-08-03
 image: /images/projects/recursiveConflict.png
 link: https://philou213.itch.io/recursive-conflict
 repo: https://github.com/Philou213/GMTK2025
-type: "Godot"
-tags:
-    - Godot
-    - Game Jam
-    - Solo
+tags: [godot, gamejam, solo]
 layout: project
 context: "GMTK Game Jam 2025"
 role: "Solo Developer"

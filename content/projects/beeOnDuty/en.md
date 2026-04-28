@@ -4,10 +4,7 @@ locale: en
 release: 2023-01-29
 image: /images/projects/beeOnDuty.png
 link: https://psonbre.itch.io/bee-on-duty
-type: "Construct"
-tags:
-    - Construct
-    - Game Jam
+tags: [gamejam, construct]
 layout: project
 context: "Valleyfield Intercollegiate Game Jam 2023"
 role: "Programmer"
