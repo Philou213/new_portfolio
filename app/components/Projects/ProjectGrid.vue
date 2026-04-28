@@ -1,8 +1,10 @@
 <script setup lang="ts">
+import Searchbar from '../Search/Searchbar.vue'
 import ProjectCard from './ProjectCard.vue'
 
 const { locale } = useI18n()
 
+// Sort and filter
 const { data: projects, pending } = await useAsyncData(
   'projects',
   async () => {
@@ -27,8 +29,16 @@ const { data: projects, pending } = await useAsyncData(
     default: () => [],
     immediate : true
    }
-)
+) 
 
+// Searchbar
+const filteredProjects = computed(() => {
+  if (!projects.value) return []
+
+  return projects.value.filter(p =>
+    p.title.toLowerCase().includes(search.value.toLowerCase())
+  )
+})
 
 
 function projectPage(path: string) {
@@ -40,12 +50,15 @@ function projectPage(path: string) {
     ? `/fr${basePath}`
     : basePath
 }
+
+const search = ref('')
 </script>
 
 <template>
+  <Searchbar v-model="search"></Searchbar>
   <div v-if="projects" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 w-full">
     <ProjectCard
-      v-for="project in projects"
+      v-for="project in filteredProjects"
       :key="project.path"
       :project_page="projectPage(project.path)"
       :project="project"

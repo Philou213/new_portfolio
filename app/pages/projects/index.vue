@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ProjectGrid from '~/components/Projects/ProjectGrid.vue';
+import Searchbar from '~/components/Search/Searchbar.vue';
 
   const { t } = useI18n()
 useHead({

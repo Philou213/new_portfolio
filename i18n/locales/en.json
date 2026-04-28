@@ -19,7 +19,8 @@
     "Role" : "Role",
     "Context" : "Context",
     "Error" : "This project does not exist",
-    "Back" : "Back"
+    "Back" : "Back",
+    "Search" : "Search for a project"
   },
   "About":{
     "Title" : "About me"

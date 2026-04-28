@@ -40,7 +40,7 @@ const formatRelease = (release: string) => {
     <div class="flex h-56 justify-center overflow-hidden rounded-lg">
       <NuxtImg
         :src="project.meta.image"
-        class="h-full w-full rounded-lg object-cover transition-all duration-300 hover:scale-105"
+        class="h-full w-full rounded-lg object-cover transition-all duration-300 hover:scale-105 hover:brightness-140 hover:contrast-140"
         :alt="project.title"
         placeholder
       />

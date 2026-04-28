@@ -46,7 +46,7 @@ const socials: Social[] = [
       :to="social.url"
       target="_blank"
       rel="noopener"
-      class="group flex size-10 items-center justify-center rounded-full border border-white/10 bg-surface transition-all duration-200 hover:bg-surface-hover hover:border-white/20"
+      class="group flex size-10 items-center justify-center rounded-full border border-white/10 bg-bg-surface transition-all duration-200 hover:bg-bg-surfaceHover hover:border-white/20"
       :aria-label="`Go to ${social.name}`"
     >
       <Icon
@@ -59,7 +59,7 @@ const socials: Social[] = [
     <a
       :href="cvPath" target="_blank"
       download
-      class="flex items-center gap-2 rounded-lg border border-white/10 bg-surface px-4 py-2 text-sm text-muted transition-all duration-200 hover:bg-surface-hover hover:text-main"
+      class="flex items-center gap-2 rounded-lg border border-white/10 bg-bg-surface px-4 py-2 text-sm text-muted transition-all duration-200 hover:bg-bg-surfaceHover hover:text-main"
     >
       {{ $t('Index.CV') }}
     </a>
