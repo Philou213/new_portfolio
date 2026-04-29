@@ -6,6 +6,7 @@ image: /images/projects/cardioCombat.jpg
 link: https://joanieb.itch.io/cheryl-donnas-cardio-combat
 tags: [school, unreal]
 layout: project
+featured: true
 context: "Concours Ubisoft 2026"
 role: " Programmeur Gameplay & UI, Concepteur sonore"
 description: "Un Beat'em up rétro en coopération locale"

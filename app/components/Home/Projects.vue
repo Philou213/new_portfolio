@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+const { formatRelease } = useDate()
 const { locale } = useI18n()
 const { data: projects } = await useAsyncData(
   'projects',
@@ -8,10 +8,12 @@ const { data: projects } = await useAsyncData(
       .where('path', 'LIKE', `/projects/%/${locale.value}`)
       .all()
 
-    const getReleaseOrder = (release: unknown) => {
+   const getReleaseOrder = (release: unknown) => {
       if (release === 'En développement' || release === 'In development') return Number.POSITIVE_INFINITY
-      if (release === 'Abandonné') return Number.NEGATIVE_INFINITY
-      return Number(release) || 0
+      if (release === 'En pause' || release === 'On hold') return Number.NEGATIVE_INFINITY
+      
+        const time = Date.parse(String(release))
+        return isNaN(time) ? 0 : time
     }
 
     return projects.sort(
@@ -54,9 +56,7 @@ function projectPage(path: string) {
         <div class="mx-2 h-[0.1px] w-full bg-muted" />
 
         <span class="whitespace-nowrap text-muted">
-          {{ project.meta.release === 'soon'
-            ? $t('global.soon') + '...'
-            : project.meta.release
+          {{ formatRelease(project.meta.release as string)
           }}
         </span>
       </NuxtLink>
