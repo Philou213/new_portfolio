@@ -18,7 +18,8 @@
   section {
     @apply flex flex-col gap-10 text-center
   }
-  ul {
+
+  .project-description ul {
   color: theme('colors.text.secondary');
   list-style-type: disc;
   padding-left: 1.5rem;

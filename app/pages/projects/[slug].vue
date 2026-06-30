@@ -64,7 +64,7 @@ useSeoMeta({
     </section>
 
     <!-- Markdown Content -->
-    <section class="mx-auto w-full max-w-4xl">
+    <section class="mx-auto w-full max-w-4xl project-description">
       <ContentRenderer
         :value="project"
         class="prose prose-neutral [&_h2]:mb-5 [&_h2]:mt-10 [&_h3]:mb-5 [&_h3]:mt-10 text-left"

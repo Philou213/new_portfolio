@@ -55,7 +55,7 @@ const formatRelease = (release: string) => {
             class="size-5 text-white"
           />
           
-          <span class="text-sm font-semibold text-white/90">
+          <span class="text-sm font-semibold text-white/90 text-balance">
             {{ project.title }}
           </span>
 
