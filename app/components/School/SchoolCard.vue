@@ -11,11 +11,13 @@ defineProps<{
   >
     <!-- CENTERED HEADER -->
     <header class="flex flex-col items-center text-center gap-2 mb-6">
-      <img
+      <NuxtImg
         v-if="job.meta.logo"
         :src="job.meta.logo"
         :alt="job.meta.school"
         class="h-10 w-10 md:h-20 md:w-20 object-contain absolute top-4 left-4"
+        loading="lazy"
+        decoding="async"
       />
 
       <h3 class="text-lg font-semibold break-words max-w-[250px] md:max-w-md">

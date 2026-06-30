@@ -24,10 +24,12 @@ defineProps({
       ? 'border-white/15 bg-zinc-900 text-white hover:bg-zinc-800'
       : 'border-white/10 bg-zinc-900/60 text-gray-300 hover:bg-zinc-800/60'"
   >
-    <img
+    <NuxtImg
       :src="icon"
       :alt="label"
       class="h-20 w-20"
+      loading="lazy"
+      decoding="async"
     />
     <span class="whitespace-nowrap">{{ label }}</span>
   </div>
