@@ -38,7 +38,7 @@ const socials: Social[] = [
 </script>
 
 <template>
-  <div class="my-7 flex items-center justify-center gap-4 sm:gap-6">
+  <div class="my-7 flex items-center justify-center gap-2 sm:gap-4">
     <!-- Social icon buttons -->
     <NuxtLink
       v-for="social in socials"
@@ -59,7 +59,7 @@ const socials: Social[] = [
     <a
       :href="cvPath" target="_blank"
       download
-      class="flex items-center gap-2 rounded-lg border border-white/10 bg-bg-surface px-4 py-2 text-sm text-muted transition-all duration-200 hover:bg-bg-surfaceHover hover:text-main"
+      class="flex w-fit items-center gap-2 rounded-lg border border-white/10 bg-bg-surface px-4 py-2 text-sm text-muted transition-all duration-200 hover:bg-bg-surfaceHover hover:text-main"
     >
       {{ $t('Index.CV') }}
     </a>

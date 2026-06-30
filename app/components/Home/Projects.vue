@@ -35,7 +35,7 @@ function projectPage(path: string) {
 </script>
 
 <template>
-  <div class="flex w-full flex-col gap-6">
+  <div class="flex w-full flex-col gap-4">
     <h3 class="font-newsreader italic text-white-shadow text-xl text-left">
       {{ $t('Index.Projects') }}
     </h3>
@@ -53,7 +53,7 @@ function projectPage(path: string) {
           {{ project.title }}
         </span>
 
-        <div class="mx-2 h-[0.1px] w-full bg-muted" />
+        <div class="h-[0.1px] w-full bg-muted" />
 
         <span class="whitespace-nowrap text-muted">
           {{ formatRelease(project.meta.release as string)
