@@ -49,13 +49,11 @@ function projectPage(path: string) {
         :aria-label="'go to ' + project.title + ' project page'"
       >
 
-        <span class="whitespace-nowrap">
+        <span class="flex-1 min-w-0 whitespace-normal text-left break-words">
           {{ project.title }}
         </span>
 
-        <div class="h-[0.1px] w-full bg-muted" />
-
-        <span class="whitespace-nowrap text-muted">
+        <span class="whitespace-normal text-muted">
           {{ formatRelease(project.meta.release as string)
           }}
         </span>
